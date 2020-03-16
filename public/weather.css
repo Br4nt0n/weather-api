@@ -1,0 +1,46 @@
+/* Widget Style */
+.weather-widget {
+    text-align: center;
+}
+
+.weather-widget table {
+    width: 100%;
+    margin: 20px 0 0;
+    text-align: left;
+}
+.weather-widget table tr td {
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+}
+.weather-widget table tr:last-child td {
+    padding-bottom: 0;
+}
+
+.weather-widget .temp span {
+    margin: 5px 0 5px 5px;
+}
+.weather-widget .degrees {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    width: auto;
+}
+
+.weather-widget .details {
+    text-align: left;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    height: 60px;
+}
+.weather-widget .details em {
+    font-style: normal;
+}
+
+.weather-widget h4 {
+    margin: 0;
+}
+
+.weather-widget h5 {
+    text-transform: uppercase;
+}
