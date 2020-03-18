@@ -1,8 +1,8 @@
 <?php
 return [
-    'style' => 'default',
+    'style' => 'app',
     'cache' => 120,
-    'views' => 'widgets/',
+    'views' => 'layouts/',
     'days' => 5,
     'units' => 'metric',
     'mode' => 'json',
