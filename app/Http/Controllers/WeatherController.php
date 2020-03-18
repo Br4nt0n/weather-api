@@ -29,8 +29,9 @@ class WeatherController extends Controller
 
             if ($request->cityId) {
                 $this->weather->renderWeather($request->cityId);
+            }else{
+                throw new \Exception('city id is missing');
             }
-            throw new \Exception('city id is missing');
 
         } catch (\Exception $e) {
             $this->logger->error($e->getMessage(), $e->getTrace());
